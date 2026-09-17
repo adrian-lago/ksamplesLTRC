@@ -1,0 +1,31 @@
+Package: ksamplesLTRC
+Title: K-Sample Tests for Truncated and/or Censored Data
+Version: 0.1.0
+Authors@R: c(
+    person(given = "Adrián", family = "Lago", email = "adrian.lago@uvigo.gal", role = c("aut", "cre")),
+    person(given = "Jacobo", family = "de Uña-Álvarez", email = "jacobo@uvigo.gal", role = "aut"),
+    person(given = "Juan Carlos", family = "Pardo-Fernández", email = "juancp@uvigo.gal", role = "aut")
+    )
+Description: Tools for the nonparametric analysis and comparison of distributions 
+    under left truncation and right censoring. The package includes simulation 
+    routines for truncated and/or censored survival data, nonparametric 
+    distribution comparison methods based on Kolmogorov-Smirnov-type and
+    Cramér-von Mises-type statistics, and bootstrap routines for p-value
+    approximation. For methodological details, see Lago, de Uña-Álvarez and
+    Pardo-Fernández (2025) <doi:10.1007/s11749-024-00948-4>
+    and Lago, Pardo-Fernández and de Uña-Álvarez (2026)
+    <doi:10.1007/s10985-026-09713-1>.
+License: GPL-3
+Encoding: UTF-8
+Suggests:
+    knitr,
+    rmarkdown,
+    KMsurv,
+    survival,
+    mvna,
+    twosamples,
+    testthat (>= 3.0.0)
+Roxygen: list(markdown = TRUE)
+VignetteBuilder: knitr
+Config/testthat/edition: 3
+Config/roxygen2/version: 8.1.0

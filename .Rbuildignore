@@ -1,0 +1,10 @@
+^RPackageLTRC\.Rproj$
+^\.Rproj\.user$
+^doc$
+^Meta$
+^ksamplesLTRC\.Rproj$
+
+^.*\.Rhistory*
+^\.Rhistory$
+^cran-comments\.md$
+^README\.Rmd$
