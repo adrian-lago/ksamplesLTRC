@@ -1,15 +1,16 @@
 ## R CMD check results
 
-This is a new release.
+0 errors | 0 warnings | 0 notes (local, Windows 11 x64, R 4.6.1)
+0 errors | 0 warnings | 0 notes (win-builder, R-devel)
 
 ## Test environments
-* Local: Windows 11 x64, R 4.6.1 — 0 errors | 0 warnings | 0 notes
-* Win-builder (R-devel) — 0 errors | 0 warnings | 1 note
-
-## Notes
-Possibly misspelled words flagged in DESCRIPTION are proper names
-(Lago, Pardo-Fernández, de Uña-Álvarez) and standard terminology
-(Cramér-von Mises), not errors.
+* Local: Windows 11 x64, R 4.6.1
+* Win-builder (R-devel)
 
 ## Reverse dependencies
-None (new package).
+None found.
+
+## Version 0.1.1 release
+This update fixes two correctness bugs in ltrc.cvm and lt.truncation.estimator
+identified through an expanded test suite, and adds VCS links requested during
+R Journal peer review (submission 2026-145).

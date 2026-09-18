@@ -1,12 +1,12 @@
 Package: ksamplesLTRC
 Title: K-Sample Tests for Truncated and/or Censored Data
-Version: 0.1.0
+Version: 0.1.1
 Authors@R: c(
     person(given = "Adrián", family = "Lago", email = "adrian.lago@uvigo.gal", role = c("aut", "cre")),
     person(given = "Jacobo", family = "de Uña-Álvarez", email = "jacobo@uvigo.gal", role = "aut"),
     person(given = "Juan Carlos", family = "Pardo-Fernández", email = "juancp@uvigo.gal", role = "aut")
     )
-Description: Tools for the nonparametric analysis and comparison of distributions 
+Description: Nonparametric analysis and comparison of distributions 
     under left truncation and right censoring. The package includes simulation 
     routines for truncated and/or censored survival data, nonparametric 
     distribution comparison methods based on Kolmogorov-Smirnov-type and
